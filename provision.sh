@@ -1,4 +1,5 @@
-﻿#Tool
+#!/bin/sh
+#Tool
 sudo yum -y install vim git
 
 if ! type docker > /dev/null 2>&1; then
